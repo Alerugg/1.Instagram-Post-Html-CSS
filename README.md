@@ -1,30 +1,67 @@
-# HTML Hello
+# Basic Instagram Post Replication
 
-The most basic boilerplate for any 4Geeks Academy student, start your very first website from scratch.
+This project is a **basic replication of an Instagram post** layout using **HTML** and **CSS** technologies. It was created for practicing front-end skills and understanding the structure and styling of social media components.
 
-> There is a video tutorial on [how to use this template to create your very first website here](https://youtu.be/dfbDCMu_p-0).
+![Instagram Post Layout](https://github.com/user-attachments/assets/2a8801b9-26a2-458a-b8b5-b62a38a06d0f)
 
-## What to do next?
+## Features
 
-Create an `index.html` file with the [basic HTML structure](http://4geeks.com/lesson/what-is-html-learn-html#page-structure) and see it live by running a web-server using the following command:
+- Replication of an Instagram post layout.
+- Basic usage of **HTML** for structuring content.
+- Application of **CSS** for styling and layout.
 
-```bash
-$ pip3 install flask && python3 server.py
+## Technologies Used
+
+- **HTML5**
+- **CSS3**
+
+## Purpose
+
+This project was created to:
+
+- Practice fundamental front-end development skills.
+- Understand and replicate common UI components found in social media platforms.
+- Improve styling and layout techniques with CSS.
+
+## How to Use
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/instagram-post-replication.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd instagram-post-replication
+   ```
+3. Open the `index.html` file in your browser:
+   ```bash
+   open index.html
+   ```
+
+## Screenshot
+
+![Screenshot](https://github.com/user-attachments/assets/2a8801b9-26a2-458a-b8b5-b62a38a06d0f)
+
+## Folder Structure
+
+```
+HTML-INSTAGRAM-POST---POST-REPLICATION/
+│
+├── .vscode/            # VSCode settings
+│   ├── settings.json   # VSCode configuration
+│
+├── styles/             # Folder for CSS files
+│   ├── index.css       # Main CSS file
+│
+├── rigo-baby.jpeg      # Image used in the project template
+├── index.html          # Main HTML file
+├── learn.json          # Additional data/config file
+├── server.py           # Server script (if needed)
+├── README.md           # Project documentation
+├── README.es.md        # Spanish version of the documentation
+├── README.cn.md        # Chinese version of the documentation
 ```
 
-- You can create as many HTML files as you want.
-- You can also create CSS files and import them into your website using a `<link>` tag placed between the `<head></head>` tags, like this:
+## License
 
-```html
-<head>
-  ...
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  ...
-</head>
-```
-
-### Contributors
-
-This template was built as part of the [Full Stack Developer course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer) at [4Geeks Academy Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and [many other contributors](https://github.com/4GeeksAcademy/html-hello/graphs/contributors).
-
-You can find other templates and resources like this at the [school's GitHub page](https://github.com/4geeksacademy/).
+This project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT). Feel free to fork, modify, and share!
